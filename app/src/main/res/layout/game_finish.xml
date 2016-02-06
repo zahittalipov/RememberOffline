@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="100%"
+        android:id="@+id/result"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#7ecb67"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="Завершить"
+        android:id="@+id/buttonResult"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp" />
+</LinearLayout>

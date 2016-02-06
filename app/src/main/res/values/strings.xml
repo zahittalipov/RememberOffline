@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Remember</string>
+    <string name="sign_up_layout_name">Регистрация</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_login">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_confirm_password">Повторите пароль</string>
+    <string name="prompt_first_name">Фамилия</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_last_name">Имя</string>
+    <string name="prompt_gender">Пол</string>
+    <string name="prompt_age">Возрост</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">Введите логин</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="button_signup">Зарегистрироваться</string>
+
+    <!--gender-->
+    <string name="male">Муж</string>
+    <string name="female">Жен</string>
+
+    <!--items for drawer layout-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="desc1">Remember - замечательный сервис для запоминания новых слов, благодаря ему вы сможете в короткие сроки пополнить свой словарный запас при помощи особой технологии I5Remember, разработанной командой Fantastic4, чтобы помочь людям укрепить свою память.</string>
+    <string name="desc2">Если вы имеете претензии или предложения по улучшению нашего сервиса, просим вас написать на почту: bert_tagirov@mail.ru.</string>
+    <string name="des3">Большое спасибо за использование нашего приложения!</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название"
+        android:id="@+id/singlDescName"
+        android:layout_gravity="center"
+        android:textColor="#17bf14"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        android:background="#ffffff"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/singlDescDisc"
+            android:layout_marginLeft="10dp"
+            android:textColor="#4e4d4d"
+            android:maxLines="100" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Старт"
+                android:id="@+id/buttonStart"
+                android:layout_weight="1" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавить слово"
+                android:id="@+id/buttonAddWord"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarDictionary"
+        android:layout_gravity="center_horizontal"
+        android:indeterminate="false" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewWord"
+        android:background="#ffffff" />
+</LinearLayout>
